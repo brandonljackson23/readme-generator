@@ -32,4 +32,8 @@ This application is covered under the following license: GPL 3.0
 
 ## QUESTIONS
 If you have any questions please contact:  
+<<<<<<< HEAD
 |  Brandon  |  brandonljackson23@gmail.com  |  (https://github.com/brandonljackson23)  |
+=======
+| Brandon Jackson | brandonljackson23@gmail.com | (https://github.com/brandonljackson23) |
+>>>>>>> bf4b97236980a4fca8c3b324d92972c44fba75b5
