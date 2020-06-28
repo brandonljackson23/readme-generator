@@ -4,6 +4,45 @@ const questions = () => {
     return inquirer.prompt([
         {
             type: 'input',
+            name: 'name',
+            message: 'What is your name? (Required)',
+            validate: nameInput => {
+                if (nameInput) {
+                    return true;
+                } else {
+                    console.log('Please enter your name.');
+                    return false;
+                }
+            }
+        },
+        {
+            type: 'input',
+            name: 'email',
+            message: 'What is your email address? (Required)',
+            validate: emailInput => {
+                if (emailInput) {
+                    return true;
+                } else {
+                    console.log('Please enter your email address.');
+                    return false;
+                }
+            }
+        },
+        {
+            type: 'input',
+            name: 'username',
+            message: 'What is your GitHub username? (Required)',
+            validate: usernameInput => {
+                if (usernameInput) {
+                    return true;
+                } else {
+                    console.log('Please enter your GitHub username.');
+                    return false;
+                }
+            }
+        },
+        {
+            type: 'input',
             name: 'title',
             message: 'What is the title of your project? (Required)',
             validate: titleInput => {
@@ -29,18 +68,63 @@ const questions = () => {
             }
         },
         {
-            type: 'confirm',
-            name: 'confirmToc',
-            message: 'Would you like to add a Table of Contents?',
-            default: true
+            type: 'input',
+            name: 'install',
+            message: 'Enter the installation instructions for your project. (Required)',
+            validate: installInput => {
+                if (installInput) {
+                    return true;
+                } else {
+                    console.log('Please enter installation instructions for your project.');
+                    return false;
+                }
+            }
         },
         {
             type: 'input',
-            name: 'toc',
-            message: 'Enter a Table of Contents for your project. (Required)',
-            when: ({ confirmToc }) => confirmToc
+            name: 'usage',
+            message: 'Enter usage information for your project. (Required)',
+            validate: usageInput => {
+                if (usageInput) {
+                    return true;
+                } else {
+                    console.log('Please enter usage information for your project.');
+                    return false;
+                }
+            }
         },
-        
+        {
+            type: 'input',
+            name: 'contribute',
+            message: 'Enter contribution guidelines for your project. (Required)',
+            validate: contributeInput => {
+                if (contributeInput) {
+                    return true;
+                } else {
+                    console.log('Please enter contribution guidelines for your project.');
+                    return false;
+                }
+            }
+        },
+        {
+            type: 'input',
+            name: 'tests',
+            message: 'Enter test instructions for your project. (Required)',
+            validate: testsInput => {
+                if (testsInput) {
+                    return true;
+                } else {
+                    console.log('Please enter test instructions for your project.');
+                    return false;
+                }
+            }
+        },
+        {
+            type: 'list',
+            name: 'license',
+            message: 'What license should be included in your project (Required)',
+            choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None']
+        },
     ]);
 };
 
