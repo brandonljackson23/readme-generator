@@ -31,5 +31,5 @@ Add instructions about tests here.
 This application is covered under the following license: None
 
 ## QUESTIONS
-If you have any questions please contact:
-> | Brandon Jackson | brandonljackson23@gmail.com | (https://github.com/brandonljackson23) |
+If you have any questions please contact:  
+| Brandon Jackson | brandonljackson23@gmail.com | (https://github.com/brandonljackson23) |
