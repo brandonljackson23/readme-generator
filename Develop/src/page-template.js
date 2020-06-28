@@ -1,41 +1,40 @@
 module.exports = templateData => {
     const { name, email, username, title, desc, install, usage, contribute, tests, license} = templateData;
     
-    return `
-    # ${title}
+return `# ${title}
 
-    ## DESCRIPTION
-    ${desc}
+## DESCRIPTION
+${desc}
 
-    ## TABLE OF CONTENTS
-    [1. DESCRIPTION](#DESCRIPTION)
-    [2. TABLE OF CONTENTS](#TABLE-OF-CONTENTS)
-    [3. INSTALLATION](#INSTALLATION)
-    [4. USAGE](#USAGE)
-    [5. CONTRIBUTING](#CONTRIBUTING)
-    [6. TESTS](#TESTS)
-    [7. LICENSE](#LICENSE)
-    [8. QUESTIONS](#QUESTIONS)
+## TABLE OF CONTENTS
+[1. DESCRIPTION](#DESCRIPTION)
+[2. TABLE OF CONTENTS](#TABLE-OF-CONTENTS)
+[3. INSTALLATION](#INSTALLATION)
+[4. USAGE](#USAGE)
+[5. CONTRIBUTING](#CONTRIBUTING)
+[6. TESTS](#TESTS)
+[7. LICENSE](#LICENSE)
+[8. QUESTIONS](#QUESTIONS)
 
-    ---
-    
-    ## INSTALLATION
-    ${install}
+---
 
-    ## USAGE
-    ${usage}
+## INSTALLATION
+${install}
 
-    ## CONTRIBUTING
-    ${contribute}
+## USAGE
+${usage}
 
-    ## TESTS
-    ${tests}
+## CONTRIBUTING
+${contribute}
 
-    ## LICENSE
-    This application is covered under the following license: ${license}
+## TESTS
+${tests}
 
-    ## QUESTIONS
-    If you have any questions please contact:
-    | ${name} | ${email} | (https://github.com/${username}) |
-    `;
+## LICENSE
+This application is covered under the following license: ${license}
+
+## QUESTIONS
+If you have any questions please contact:
+| ${name} | ${email} | (https://github.com/${username}) |
+`;
 };
