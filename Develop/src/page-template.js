@@ -2,12 +2,12 @@ module.exports = templateData => {
     const { name, email, username, title, desc, install, usage, contribute, tests, license} = templateData;
     
     return `
-    # <div align="center">${title}</div>
+    # ${title}
 
     ## DESCRIPTION
-    > ${desc}
+    ${desc}
 
-    ## **TABLE OF CONTENTS**
+    ## TABLE OF CONTENTS
     [1. DESCRIPTION](#DESCRIPTION)
     [2. TABLE OF CONTENTS](#TABLE-OF-CONTENTS)
     [3. INSTALLATION](#INSTALLATION)
@@ -20,22 +20,22 @@ module.exports = templateData => {
     ---
     
     ## INSTALLATION
-    > ${install}
+    ${install}
 
     ## USAGE
-    > ${usage}
+    ${usage}
 
     ## CONTRIBUTING
-    > ${contribute}
+    ${contribute}
 
     ## TESTS
-    > ${tests}
+    ${tests}
 
     ## LICENSE
-    > This application is covered under the following license: ${license}
+    This application is covered under the following license: ${license}
 
     ## QUESTIONS
-    > If you have any questions please contact:
-    > | ${name} | ${email} | (https://github.com/${username}) |
+    If you have any questions please contact:
+    | ${name} | ${email} | (https://github.com/${username}) |
     `;
 };

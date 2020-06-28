@@ -1,10 +1,10 @@
 
-    # <div align="center">j</div>
+    # title
 
     ## DESCRIPTION
-    > j
+    description
 
-    ## **TABLE OF CONTENTS**
+    ## TABLE OF CONTENTS
     [1. DESCRIPTION](#DESCRIPTION)
     [2. TABLE OF CONTENTS](#TABLE-OF-CONTENTS)
     [3. INSTALLATION](#INSTALLATION)
@@ -17,21 +17,21 @@
     ---
     
     ## INSTALLATION
-    > j
+    installation
 
     ## USAGE
-    > j
+    usage
 
     ## CONTRIBUTING
-    > j
+    conttibuting
 
     ## TESTS
-    > j
+    tests
 
     ## LICENSE
-    > This application is covered under the following license: MIT
+    This application is covered under the following license: GPL 3.0
 
     ## QUESTIONS
-    > If you have any questions please contact:
-    > | j | j | (https://github.com/j) |
+    If you have any questions please contact:
+    | name | email | (https://github.com/username) |
     
