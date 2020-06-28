@@ -1,5 +1,7 @@
-// array of questions for user
+const { writeFile} = require('./utils/generateMarkdown.js');
+const generatePage = require('./src/page-template.js');
 const inquirer = require('inquirer');
+// array of questions for user
 const questions = () => {
     return inquirer.prompt([
         {
@@ -129,8 +131,7 @@ const questions = () => {
 };
 
 // function to write README file
-// function writeToFile(fileName, data) {
-// }
+
 
 // function to initialize program
 // function init() {
@@ -139,4 +140,16 @@ const questions = () => {
 
 // function call to initialize program
 // init();
-questions();
+questions()
+    .then(readmeData => {
+        return generatePage(readmeData);
+    })
+    .then(pageMD => {
+        return writeFile(pageMD);
+    })
+    .then(writeFileResponse => {
+        console.log(writeFileResponse);
+    })
+    .catch(err => {
+        console.log(err);
+    });
