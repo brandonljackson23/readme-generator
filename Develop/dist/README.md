@@ -1,9 +1,9 @@
-# j
+# f
 
-[![License](https://img.shields.io/badge/License-APACHE2.0-blue.svg)]
+![License](https://img.shields.io/badge/License-GPL3.0-blue.svg)
 
 ## DESCRIPTION
-j
+f
 
 ## TABLE OF CONTENTS
 [1. DESCRIPTION](#DESCRIPTION)  
@@ -18,20 +18,20 @@ j
 ---
 
 ## INSTALLATION
-j
+f
 
 ## USAGE
-j
+f
 
 ## CONTRIBUTING
-j
+f
 
 ## TESTS
-j
+f
 
 ## LICENSE
-This application is covered under the following license: APACHE2.0
+This application is covered under the following license: GPL3.0
 
 ## QUESTIONS
 If you have any questions please contact:  
-|  j  |  j  |  (https://github.com/j)  |
+|  f  |  f  |  (https://github.com/f)  |
