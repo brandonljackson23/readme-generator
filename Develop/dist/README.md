@@ -1,7 +1,9 @@
-# README.md Generator
+# j
+
+[![License](https://img.shields.io/badge/License-APACHE2.0-blue.svg)]
 
 ## DESCRIPTION
-Description
+j
 
 ## TABLE OF CONTENTS
 [1. DESCRIPTION](#DESCRIPTION)  
@@ -16,24 +18,20 @@ Description
 ---
 
 ## INSTALLATION
-Install
+j
 
 ## USAGE
-Usage
+j
 
 ## CONTRIBUTING
-Guidelines
+j
 
 ## TESTS
-Instructions
+j
 
 ## LICENSE
-This application is covered under the following license: GPL 3.0
+This application is covered under the following license: APACHE2.0
 
 ## QUESTIONS
 If you have any questions please contact:  
-<<<<<<< HEAD
-|  Brandon  |  brandonljackson23@gmail.com  |  (https://github.com/brandonljackson23)  |
-=======
-| Brandon Jackson | brandonljackson23@gmail.com | (https://github.com/brandonljackson23) |
->>>>>>> bf4b97236980a4fca8c3b324d92972c44fba75b5
+|  j  |  j  |  (https://github.com/j)  |
