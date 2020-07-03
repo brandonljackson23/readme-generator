@@ -1,11 +1,11 @@
-# README Generator
+# Sample Title
 
-![License](https://img.shields.io/badge/License-None-blue.svg)
+![License](https://img.shields.io/badge/License-APACHE2.0-blue.svg)
 
 ---
 
 ## DESCRIPTION
-A tool that allows a user to create a README.md file automaticlaly using the command line.
+Sample Description
 
 ---
 
@@ -22,27 +22,27 @@ A tool that allows a user to create a README.md file automaticlaly using the com
 ---
 
 ## INSTALLATION
-Download the files from the GitHub repo (link below) and install all the dependencies including node.js and the inquirer package.
+Sample Installation Instrucitons
 
 ---
 
 ## USAGE
-This app is intended to be used by software developers to create a professional README.md file quickly so as to allow them to focus more time on doing what they do best--writing code.
+Sample Usage Information
 
 ---
 
 ## CONTRIBUTING
-Other developers and welcome to contribute to this open source project.
+All are welcome to contribute
 
 ---
 
 ## TESTS
-No tests have been written for this app yet.  In the event that tests are written in the future, instructions on how to run those tests will be listed here.
+No tests at this time.
 
 ---
 
 ## LICENSE
-This application is covered under the following license(s): None
+This application is covered under the following license(s): APACHE2.0
 
 ---
 
