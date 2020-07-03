@@ -5,8 +5,12 @@ return `# ${title}
 
 ![License](https://img.shields.io/badge/License-${license}-blue.svg)
 
+---
+
 ## DESCRIPTION
 ${desc}
+
+---
 
 ## TABLE OF CONTENTS
 [1. DESCRIPTION](#DESCRIPTION)  
@@ -23,17 +27,27 @@ ${desc}
 ## INSTALLATION
 ${install}
 
+---
+
 ## USAGE
 ${usage}
+
+---
 
 ## CONTRIBUTING
 ${contribute}
 
+---
+
 ## TESTS
 ${tests}
 
+---
+
 ## LICENSE
 This application is covered under the following license: ${license}
+
+---
 
 ## QUESTIONS
 If you have any questions please contact:  
