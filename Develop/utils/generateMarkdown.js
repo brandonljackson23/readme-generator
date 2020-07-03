@@ -9,7 +9,6 @@ const writeFile = fileContent => {
                 // return out of the function here to make sure the Promise doesn't accidentally execute the resolve() function as well
                 return;
             }
-
             // if everything went well, resolve the Promise and send the successful data to the `.then()` method
             resolve({
                 ok: true,

@@ -1,6 +1,6 @@
 module.exports = templateData => {
     const { name, email, username, title, desc, install, usage, contribute, tests, license} = templateData;
-    
+// README file template
 return `# ${title}
 
 ![License](https://img.shields.io/badge/License-${license}-blue.svg)
@@ -45,7 +45,7 @@ ${tests}
 ---
 
 ## LICENSE
-This application is covered under the following license: ${license}
+This application is covered under the following license(s): ${license}
 
 ---
 

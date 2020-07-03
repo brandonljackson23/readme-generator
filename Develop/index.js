@@ -129,7 +129,7 @@ const questions = () => {
         },
     ]);
 };
-
+// Promise that takes answers to the questions and calls functions to generate the README file
 questions()
     .then(readmeData => {
         return generatePage(readmeData);
