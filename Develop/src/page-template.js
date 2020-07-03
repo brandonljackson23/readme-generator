@@ -51,6 +51,6 @@ This application is covered under the following license: ${license}
 
 ## QUESTIONS
 If you have any questions please contact:  
-|  ${name}  |  ${email}  |  (https://github.com/${username})  |
+|  ${name}  |  ${email}  |  <https://github.com/${username}>  |
 `;
 };

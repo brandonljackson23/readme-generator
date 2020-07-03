@@ -48,4 +48,4 @@ This application is covered under the following license(s): None
 
 ## QUESTIONS
 If you have any questions please contact:  
-|  Brandon Jackson  |  brandonljackson23@gmail.com  |  (https://github.com/brandonljackson23)  |
+|  Brandon Jackson  |  brandonljackson23@gmail.com  |  <https://github.com/brandonljackson23>  |
